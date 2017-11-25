@@ -287,12 +287,12 @@
 }
 
 @media screen and (max-width: 640px) {
-	#topbar {position: static; height: 120px;}
-	#namebox {width: 100%;}
-	#navigationlinks {width: 33%;}
-	#topbar2 {width: 490px;}
-	#profpic {width: 480px; margin-left: 0px;}
-	#mainbox {width: 490px;}
-	#connectbox {width: 490px; float: left;}
+	#topbar {height: 240px;}
+	#namebox {width: 100%; line-height: 120px; height: 120px;}
+	#navigationlinks {float: left; line-height: 120px; height: 120px; width: 33%;}
+	#topbar2 {width: 620px;}
+	#profpic {width: 620px; margin-left: 0px;}
+	#mainbox {width: 620px;}
+	#connectbox {width: 620px; float: left;}
 	#maincontent {margin: 0 auto;}
-}
+	#footer {position: static; width: 660px;}
